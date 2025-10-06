@@ -5,4 +5,9 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    background-color: #111154
+}
+
+.buttons {
+
 }
