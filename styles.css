@@ -1,13 +1,60 @@
 body {
     margin: 0;
+    padding: 40px;
+    background-color: #d8ddd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1em;
+    font-family: 'Verdana', sans-serif;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
-    background-color: #111154
+    background-color: #1b244a;
+    padding: 50px 80px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    gap: 100px;
+}
+
+.team {
+    color: #f0f0f0;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.score {
+    background-color: #0a0a0a;
+    color: #d9534f;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 60px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', monospace;
+    min-width: 200px;
 }
 
 .buttons {
+    color: white;
+    background-color: transparent;
+    border: 3px solid #6b7a99;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 8px;
+    transition: all 0.2s;
+}
 
+.buttons:hover {
+    background-color: #2d3a5e;
+    border-color: #8895b0;
 }
