@@ -1,4 +1,5 @@
 # basketball-scoreboard
+Live Preview: https://chen-domi.github.io/basketball-scoreboard/
 
 <img width="943" height="526" alt="image" src="https://github.com/user-attachments/assets/1f30ea24-5653-4120-8977-2f0622a05341" />
 
